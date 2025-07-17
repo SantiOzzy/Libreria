@@ -24,9 +24,6 @@ namespace Trabajo_de_campo
         {
             InitializeComponent();
             LanguageManager.ObtenerInstancia().Agregar(this);
-
-            textBox1.Text = "a";
-            textBox2.Text = "aaaa1111";
         }
 
         public void ActualizarIdioma()
