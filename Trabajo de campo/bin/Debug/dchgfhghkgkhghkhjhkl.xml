@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<DataTable>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Clientes" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Clientes">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DNI" type="xs:int" minOccurs="0" />
+                <xs:element name="Nombre" type="xs:string" minOccurs="0" />
+                <xs:element name="Apellido" type="xs:string" minOccurs="0" />
+                <xs:element name="Dirección" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="Número_x0020_de_x0020_teléfono" type="xs:string" minOccurs="0" />
+                <xs:element name="Activo" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <DocumentElement>
+      <Clientes diffgr:id="Clientes1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+        <DNI>10000000</DNI>
+        <Nombre>Thomas</Nombre>
+        <Apellido>Shelby</Apellido>
+        <Dirección>Birmingham</Dirección>
+        <Email>peaky@blinders.com</Email>
+        <Número_x0020_de_x0020_teléfono>35423524632</Número_x0020_de_x0020_teléfono>
+        <Activo>true</Activo>
+      </Clientes>
+      <Clientes diffgr:id="Clientes2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+        <DNI>10000001</DNI>
+        <Nombre>sda</Nombre>
+        <Apellido>sa</Apellido>
+        <Dirección>dsads</Dirección>
+        <Email>sad@fasw</Email>
+        <Número_x0020_de_x0020_teléfono>35223626436</Número_x0020_de_x0020_teléfono>
+        <Activo>true</Activo>
+      </Clientes>
+      <Clientes diffgr:id="Clientes3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+        <DNI>10000002</DNI>
+        <Nombre>aaaa</Nombre>
+        <Apellido>sdaffd</Apellido>
+        <Dirección>sgr</Dirección>
+        <Email>rhgyyh@ed</Email>
+        <Número_x0020_de_x0020_teléfono>2464267752</Número_x0020_de_x0020_teléfono>
+        <Activo>false</Activo>
+      </Clientes>
+    </DocumentElement>
+  </diffgr:diffgram>
+</DataTable>
